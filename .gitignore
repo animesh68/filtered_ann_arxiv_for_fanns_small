@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+.env
+
+# Large dataset binaries (>100MB)
+data/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# IDE files
+.vscode/
+.idea/
+.gemini/

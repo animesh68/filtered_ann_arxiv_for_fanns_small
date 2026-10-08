@@ -1,0 +1,5 @@
+method,filter_type,k,num_queries,index_build_time_s,index_memory_mb,mean_recall,mean_latency_ms,median_latency_ms,p95_latency_ms,p99_latency_ms,qps,mean_selectivity,mean_candidate_count,parameters,param_metric,param_k
+ExactSearch,unfiltered,10,500,0.0,0.0,1.0,17.327689600000003,16.773,20.82914499999999,28.09220899999999,57.71109842595517,1.0,1000.0,"{'metric': 'l2', 'k': 10}",l2,10
+ExactSearch,EM,10,500,0.0,0.0,1.0,7.401838599999999,7.373,13.21767,17.371295999999997,135.1015678726094,0.36237400000000003,362.374,"{'metric': 'l2', 'k': 10}",l2,10
+ExactSearch,Range,10,500,0.0,0.0,1.0,9.4965916,8.871400000000001,18.605415,22.30493299999999,105.30093765430536,0.434162,434.162,"{'metric': 'l2', 'k': 10}",l2,10
+ExactSearch,EMIS,10,500,0.0,0.0,1.0,3.8863526000000004,3.1904000000000003,8.669754999999997,10.11699,257.3106722225873,0.15556999999999999,155.57,"{'metric': 'l2', 'k': 10}",l2,10
